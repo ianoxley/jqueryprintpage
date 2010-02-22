@@ -9,3 +9,5 @@ Usage is typically something like:
 $(document).ready(function() {
     $('span.print').printPage();
 });
+
+See index.html for a demo page with some sample CSS.
