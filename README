@@ -1,0 +1,11 @@
+jQuery Print Page Plugin
+------------------------
+A simple jQuery plugin to wrap the inner elements matching a given
+selector in a *print page* link, then add an onclick handler to print
+the current page.
+
+Usage is typically something like:
+
+$(document).ready(function() {
+    $('span.print').printPage();
+});
